@@ -1,12 +1,32 @@
 * {
   box-sizing: border-box;
-  font-family: 'Lato', sans-serif;
+  font-family: "Lato", sans-serif;
 }
 
 html,
 body {
   margin: 0;
   padding: 0;
+}
+
+header {
+  padding-top: 96px;
+  border-bottom: 10px solid lightgray;
+
+  padding-left: 24px;
+}
+
+main {
+  background-color: gray;
+  padding-left: 24px;
+}
+
+p {
+  line-height: 1.5;
+}
+
+p strong {
+  color: blue;
 }
 
 /* Add styles here! */
